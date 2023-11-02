@@ -46,6 +46,11 @@ h4 {
     color: #fafafa;
 }
 
+.bg-color-personal-info {
+    color: #fafafa;
+    background-color: #454e66;
+}
+
 /* ------ Header*/
 
 header {

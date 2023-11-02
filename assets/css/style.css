@@ -3,24 +3,43 @@
 /* ------ Colour */
 
 .bg-color-name-title {
-    background-color: #ef6969;
+    background-color: #a43549;
     color: #ffffff;
 }
 
 .ui-menu-color-home {
-    background-color: #ef6969;
+    background-color: #a43549;
 }
 
 .ui-menu-color-resume {
-    background-color: #6d6d9c;
+    background-color: #454e66;
 }
 
 .ui-menu-color-contact {
-    background-color: #6d6d9c;
+    background-color: #454e66;
 }
 
 .ui-menu-color-download {
-    background-color: #6d6d9c;
+    background-color: #454e66;
+}
+
+/* ------ Special styles*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
 }
 
 /* ------ Header*/
@@ -69,6 +88,10 @@ header {
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 #nav li {
     font-size: 14px;
     padding: 0;
@@ -103,4 +126,24 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/* ------ Hover.css */
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 30, 0.2);
+    height: 120px;
+}
+
+/* ------ Footer */
+
+footer {
+    background-color: #454e66;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }

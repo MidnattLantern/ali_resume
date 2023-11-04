@@ -13,7 +13,7 @@
 }
 
 .ui-menu-color-not-current {
-    background-color: #454e66;
+    background-color: #1d222d;
 /*    border: solid #fafafa 1.5px;*/
     border-radius: 10px;
 }
@@ -47,8 +47,8 @@ h4 {
 .blur-box {
     margin: 10px;
     border-radius: 10px;
-    border: solid #454e66 3px;
-    background-color: rgba(30, 30, 30, 0.4);
+    border: solid #1d222d 3px;
+    background-color: rgba(25, 25, 35, 0.6);
     backdrop-filter: blur(20px);
 }
 
@@ -82,7 +82,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 95%;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -186,6 +186,7 @@ header {
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 /* ------ Hover.css */
@@ -213,7 +214,7 @@ header {
 /* ------ Footer */
 
 footer {
-    background-color: #454e66;
+    background-color: #1d222d;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
@@ -403,5 +404,12 @@ button[type="submit"] {
         min-height: 240ox;
         margin: 0 auto;
         max-width: 50%;
+    }
+    
+}
+
+@media(max-width: 767px) {
+    .logo {
+        min-height: 200px;
     }
 }

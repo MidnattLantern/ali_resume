@@ -1,18 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700'); */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Petrona:wght@500&family=Pridi&display=swap');
 
 /* ------ Colour */
 
 .bg-color-name-title {
-    background-color: #a43549;
+    background-color: #923951;
     color: #ffffff;
 }
 
 .ui-menu-color-current {
-    background-color: #a43549;
+    background-color: #923951;
 }
 
 .ui-menu-color-not-current {
     background-color: #454e66;
+/*    border: solid #fafafa 1.5px;*/
+    border-radius: 10px;
 }
 
 .bg-color-contact {
@@ -32,15 +35,36 @@ h4 {
     text-transform: uppercase;
 }
 
+.blur {
+    filter:blur(5px);
+}
+
+.margin-box {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.blur-box {
+    margin: 10px;
+    border-radius: 10px;
+    border: solid #454e66 3px;
+    background-color: rgba(30, 30, 30, 0.4);
+    backdrop-filter: blur(20px);
+}
+
+.transparent {
+    opacity: 0.5;
+}
+
 .general-sub {
-    font-family: "Exo", sans-serif;
+    font-family: "Petrona", sans-serif;
     font-weight: 300;
     color: #fafafa;
 }
 
 .bg-color-personal-info {
     color: #fafafa;
-    background-color: #a43549;
+    background-color: #923951;
 }
 
 /* ------ Header*/
@@ -65,15 +89,16 @@ header {
 }
 
 .name {
-    font-family: "Exo", sans-serif;
+    font-family: "Petrona", sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
     color: #ffffff;
+
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
+    font-family: "Petrona", sans-serif;
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
@@ -144,17 +169,45 @@ header {
 }
 
 .section-heading {
-    font-family: "Exo", sans-serif;
+    font-family: "Petrona", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
 }
 
+.rounded-edge {
+    border-radius: 25px;
+}
+
+/* ------ Body */
+
+.wallpaper {
+    background: url(../images/wallpaper.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* ------ Hover.css */
 
 .hvr-sweep-to-bottom:before {
-    background: #a43549;
+    background: #923951;
     height: 120px;
+}
+
+.hvr-fade {
+    background: none;
+    border-radius: 7px;
+}
+
+.hvr-fade:hover {
+    background: none;
+    border-radius: 7px;
+    border: solid #fafafa 1px;
+}
+
+.hvr-fade:focus {
+    background: none;
 }
 
 /* ------ Footer */
@@ -178,7 +231,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color:#a43549;
+    color: #923951;
 }
 
 .social-links {
@@ -194,7 +247,7 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #a43549;
+    background: #923951;
     transition: all, 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -213,7 +266,7 @@ footer {
 
 .three-reasons-icon {
     font-size: 26px;
-    color: #a43549
+    color: #923951
 }
 
 .three-reasons-heading {
@@ -269,7 +322,7 @@ footer {
     font-weight: 400;
     padding: 3px 30px 2px 10px;
     color: #fafafa;
-    background-color: rgba( 25, 25, 25, 0.2);
+    background-color: rgba(25, 25, 25, 0.2);
 }
 
 .progress-section {
@@ -301,7 +354,7 @@ footer {
     left: 2.5em;
     top: 3em;
     display: block;
-    font-family: "Exo", sans-serif;
+    font-family: "Petrona", sans-serif;
     font-weight: 500;
     font-size: 0.8em;
     padding: 0;
@@ -323,7 +376,7 @@ footer {
 /* ------ Contact Form */
 
 .contact-heading {
-    font-family: "Exo", sans-serif;
+    font-family: "Petrona", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
@@ -339,7 +392,7 @@ button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
-    background-color: #a43549;
+    background-color: #923951;
 }
 
 /* ------ Media Queries*/

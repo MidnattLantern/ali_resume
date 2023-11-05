@@ -171,6 +171,8 @@ header, section {
 
 .info-side-box {
     background-color: #1d222d;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .secion-column {

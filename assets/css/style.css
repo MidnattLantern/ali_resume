@@ -26,6 +26,10 @@
     color: #fafafa;
 }
 
+.bg-my-confidence {
+    background-color: #e96784
+}
+
 /* ------ Special styles*/
 
 h1,
@@ -328,6 +332,7 @@ footer {
     position: relative;
     height: 25px;
     margin-bottom: 4px;
+    background-color: #1d222d;
 }
 
 .progress-type {

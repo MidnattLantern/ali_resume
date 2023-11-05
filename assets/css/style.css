@@ -4,12 +4,12 @@
 /* ------ Colour */
 
 .bg-color-name-title {
-    background-color: #923951;
+    background-color: #e96784;
     color: #ffffff;
 }
 
 .ui-menu-color-current {
-    background-color: #923951;
+    background-color: #e96784;
 }
 
 .ui-menu-color-not-current {
@@ -20,6 +20,10 @@
 
 .bg-color-contact {
     background-color: #ffffff;
+}
+
+.white-font {
+    color: #fafafa;
 }
 
 /* ------ Special styles*/
@@ -64,13 +68,16 @@ h4 {
 
 .bg-color-personal-info {
     color: #fafafa;
-    background-color: #923951;
+    background-color: #e96784;
+
 }
 
 /* ------ Header*/
 
-header {
-    margin: 0;
+header, section {
+    margin-left: 0;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .heading {
@@ -162,6 +169,10 @@ header {
     display: inline-block;
 }
 
+.info-side-box {
+    background-color: #1d222d;
+}
+
 .secion-column {
     display: table-cell;
     padding: 0 30px 30px;
@@ -192,7 +203,7 @@ header {
 /* ------ Hover.css */
 
 .hvr-sweep-to-bottom:before {
-    background: #923951;
+    background: #e96784;
     height: 120px;
 }
 
@@ -232,7 +243,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: #923951;
+    color: #e96784;
 }
 
 .social-links {
@@ -248,7 +259,7 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #923951;
+    background: #e96784;
     transition: all, 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -267,7 +278,7 @@ footer {
 
 .three-reasons-icon {
     font-size: 26px;
-    color: #923951
+    color: #e96784
 }
 
 .three-reasons-heading {
@@ -393,7 +404,7 @@ button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
-    background-color: #923951;
+    background-color: #e96784;
 }
 
 /* ------ Media Queries*/
@@ -409,7 +420,16 @@ button[type="submit"] {
 }
 
 @media(max-width: 767px) {
+    header, section {
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .logo {
         min-height: 200px;
+    }
+    .heading {
+        margin-left: 15px;
     }
 }

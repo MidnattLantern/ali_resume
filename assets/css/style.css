@@ -4,17 +4,17 @@
 /* ------ Colour */
 
 .bg-color-name-title {
-    background-color: #e96784;
+    background-color: #d65762;
     color: #ffffff;
 }
 
 .ui-menu-color-current {
-    background-color: #e96784;
+    background-color: #d65762;
+    border-radius: 10px;
 }
 
 .ui-menu-color-not-current {
     background-color: #1d222d;
-/*    border: solid #fafafa 1.5px;*/
     border-radius: 10px;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .bg-my-confidence {
-    background-color: #e96784
+    background-color: #d65762
 }
 
 /* ------ Special styles*/
@@ -56,7 +56,7 @@ h4 {
     margin: 10px;
     border-radius: 10px;
     border: solid #1d222d 3px;
-    background-color: rgba(25, 25, 35, 0.6);
+    background-color: rgba(15, 15, 25, 0.6);
     backdrop-filter: blur(20px);
 }
 
@@ -72,7 +72,7 @@ h4 {
 
 .bg-color-personal-info {
     color: #fafafa;
-    background-color: #e96784;
+    background-color: #d65762;
 
 }
 
@@ -199,7 +199,7 @@ header, section {
 /* ------ Body */
 
 .wallpaper {
-    background: url(../images/wallpaper_2.jpg);
+    background: url(../images/wallpaper_mine.jpg);
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -209,7 +209,7 @@ header, section {
 /* ------ Hover.css */
 
 .hvr-sweep-to-bottom:before {
-    background: #e96784;
+    background: #d65762;
     height: 120px;
 }
 
@@ -219,9 +219,9 @@ header, section {
 }
 
 .hvr-fade:hover {
-    background: none;
+    background: #d65762;
     border-radius: 7px;
-    border: solid #fafafa 1px;
+/*    border: solid #fafafa 2px;*/
 }
 
 .hvr-fade:focus {
@@ -249,7 +249,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: #e96784;
+    color: #d65762;
 }
 
 .social-links {
@@ -265,7 +265,7 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #e96784;
+    background: #d65762;
     transition: all, 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -284,7 +284,7 @@ footer {
 
 .three-reasons-icon {
     font-size: 26px;
-    color: #e96784
+    color: #d65762
 }
 
 .three-reasons-heading {
@@ -411,7 +411,7 @@ button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
-    background-color: #e96784;
+    background-color: #d65762;
 }
 
 /* ------ Media Queries*/

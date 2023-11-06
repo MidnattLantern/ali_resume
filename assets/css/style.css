@@ -30,6 +30,15 @@
     background-color: #d65762
 }
 
+.collab-link {
+    color: #d65762;
+    text-decoration: underline;
+}
+.collab-link:hover {
+    color: #fafafa;
+    text-decoration: underline;
+}
+
 /* ------ Special styles*/
 
 h1,

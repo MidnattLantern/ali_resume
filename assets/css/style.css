@@ -82,7 +82,15 @@ h4 {
 .bg-color-personal-info {
     color: #fafafa;
     background-color: #d65762;
+}
 
+.discord-tag {
+    display: none;
+}
+
+.show-discord-tag:hover + .discord-tag {
+    display: inline-block;
+    color: #fafafa;
 }
 
 /* ------ Header*/

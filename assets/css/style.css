@@ -129,7 +129,7 @@ header, section {
 .name {
     font-family: "Petrona", sans-serif;
     font-weight: 100;
-    font-size: 46px;
+/*    font-size: 46px;*/
     margin-top: 50px;
     color: #ffffff;
 
@@ -239,7 +239,7 @@ input {
 
 #artstation-window {
     width: 100%;
-    height: 600px;
+    height: 1000px;
     border-radius: 10px;
 }
 

@@ -10,12 +10,12 @@
 
 .ui-menu-color-current {
     background-color: #d65762;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 .ui-menu-color-not-current {
     background-color: #1d222d;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 .bg-color-contact {

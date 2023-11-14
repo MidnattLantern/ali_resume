@@ -225,9 +225,10 @@ header, section {
 
 /* ------ Hover.css */
 
-.hvr-sweep-to-bottom:before {
+.hvr-sweep-to-right:before {
     background: #d65762;
     height: 120px;
+    border-radius: 7px;
 }
 
 .hvr-fade {

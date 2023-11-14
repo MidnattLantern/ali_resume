@@ -30,10 +30,10 @@ function repoInformationHTML(repos) {
     });
     return `<div class="clearfix repo-list">
                 <p>
-                    <strong>Repo List:</strong>
+                    <strong>Repositories:</strong>
                 </p>
                 <ul>
-                    ${listItemsHTML.join("/n")}
+                    ${listItemsHTML.join("")}
                 </ul>
             </div>`;
 }    

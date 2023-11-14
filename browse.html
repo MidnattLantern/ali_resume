@@ -80,48 +80,30 @@
     <section> <!-- class="container-fluid" -->
         <div class="row blur-box margin-box">
             <div class="col-md-4 section-column info-side-box white-font">
-                <div>
-                    <div class="col-12">
+
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading uppercase white-font text-center">
+                            Github
+                        </h3>
                         <div>
-                            <h3 class="section-heading uppercase white-font">
-                                Featured work:
-                            </h3>
+                            <input type="text" id="gh-username" class="text-center" value="MidnattLantern" oninput="fetchGithubInformation()">
+                            <div id="gh-user-data"></div> <!-- display user -->
+                            <div id="gh-repo-data"></div> <!-- display repositories -->
                         </div>
                     </div>
-
-                    
-
-                    
-                    
-
-                    
-
-                    <div class="timeline-item" data-dates="Summer 2019 -  Summer 2020">
-                        <h4>
-                            With Emma Fyrmark
-                        </h4>
-                        <a href="https://drive.google.com/file/d/1bsQUsmVJoWa4Dj9G6HOR5fYwtI1IA0e5/view?usp=sharing" target="_blank" class="collab-link">
-                            UEG graduation project: Baseball Animation
-                        </a>
-                    </div>
-
-                    <br>
                 </div>
+
             </div>
             <div class="col-md-8 bg-color-three-reasons secion-column">
                 <div class="row">
                     <div class="col">
                         <h3 class="section-heading uppercase white-font text-center">
-                            Browse around
+                            Artstation
                         </h3>
-                        <h5 class="uppercase text-center white-font">
-                            My Github
-                        </h5>
-                        <div class="center-form">
-                            <input type="text" id="gh-username" value="MidnattLantern" oninput="fetchGithubInformation()">
-                            <div id="gh-user-data"></div> <!-- display user -->
-                            <div id="gh-repo-data"></div> <!-- display repositories -->
-                        </div>
+                        <iframe src="https://midnight_lantern.artstation.com" title="My Artstation goes here" id="artstation-window">
+                            
+                        </iframe>
                     </div>
                 </div>
            </div>

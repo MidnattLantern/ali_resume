@@ -2,12 +2,12 @@
 
 function userInformationHTML(user) {
     return `
-        <h2>${user.name}
+        <h2 class="white-font text-center">${user.name}
             <span class="small-name">
                 @<a href="${user.html_url}" target="_blank">${user.login}</a>
             </span>
         </h2>
-        <div class="gh-content">
+        <div class="gh-content text-center">
             <div class="gh-avatar">
                 <a href="${user.html_url} target="_blank">
                     <img src="${user.avatar_url}" width="80" height="80" alt="${user.login}" />
@@ -28,7 +28,7 @@ function repoInformationHTML(repos) {
                     <a href="${repo.html_url}" target="_blank">${repo.name}</a>
                 </li>`
     });
-    return `<div class="clearfix repo-list">
+    return `<div class="clearfix repo-list white-font">
                 <p>
                     <strong>Repositories:</strong>
                 </p>
@@ -44,7 +44,7 @@ function fetchGithubInformation(event) {
 
     var username = $("#gh-username").val();
     if (!username) {
-        $("#gh-user-data").html(`<h2>Please enter a GitHub username</h2>`);
+        $("#gh-user-data").html(`<h2 class="white-font">Enter a GitHub username</h2>`);
         return;
     }
 

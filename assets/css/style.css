@@ -22,6 +22,16 @@
     background-color: #ffffff;
 }
 
+a {
+    color: #d65762;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 .white-font {
     color: #fafafa;
 }
@@ -209,11 +219,15 @@ header, section {
     margin-bottom: 40px;
 }
 
+/* ------ Body */
+
 .rounded-edge {
     border-radius: 25px;
 }
 
-/* ------ Body */
+input {
+    width: 100%;
+}
 
 .wallpaper {
     background: url(../images/wallpaper_mine.jpg);
@@ -221,6 +235,12 @@ header, section {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+#artstation-window {
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
 }
 
 /* ------ Hover.css */

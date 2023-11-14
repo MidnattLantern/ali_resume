@@ -1,8 +1,21 @@
 
 
-function userInformationHTML() {
-    
-}
+function userInformationHTML(user) {
+    return `
+        <h2>${user.name}
+            <span class="small-name">
+                @<a href="${user.html_url}" target="_blank">${user.login}</a>
+            </span>
+        </h2>
+        <div class="gh-content">
+            <div class="gh-avatar">
+                <a href="${user.html_url} target="_blank">
+                    <img src="${user.avatar_url}" width="80" height="80" alt="${user.login}" />
+                </a>
+            </div>
+        </div>
+        `
+    }
 
 function fetchGithubInformation(event) {
 
@@ -17,7 +30,7 @@ function fetchGithubInformation(event) {
         <img src="assets/css/loader.gif" alt="loading...">
         </div>`
     )
-    $when(
+    $.when(
         $.getJSON(`https://api.github.com/users/${username}`)
     ).then(
         function(response) {
@@ -25,7 +38,7 @@ function fetchGithubInformation(event) {
             $("#gh-user-data").html(userInformationHTML(userData));
         }, function(errorResponse) {
             if (errorResponse.status === 404) {
-                $("#gh-user-data").html(`<h2><No info found for user ${usename}/h2>`)
+                $("#gh-user-data").html(`<h2><No info found for user ${username}/h2>`)
             } else {
                 console.log(errorResponse);
                 $("#gh-user-data").html(
